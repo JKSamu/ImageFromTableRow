@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compose file"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/buttonUpload"
+        style="@style/Widget.AppCompat.Button.Colored">
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="378dp"
+        android:layout_height="257dp"
+        android:background="@drawable/ic_android_black_24dp"></ImageView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/buttonChoose"
+        style="@style/Widget.AppCompat.Button.Colored">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="view image"
+        android:id="@+id/buttonViewImage"
+        style="@style/Widget.AppCompat.Button.Colored">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="view all image"
+        android:id="@+id/ballViewImage"
+        style="@style/Widget.AppCompat.Button.Colored">
+    </Button>
+
+</LinearLayout>
